@@ -254,9 +254,9 @@ async def add_to_pack(
         return pack, packname
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="kang ?(.*)"))
-@bot.on(sudo_cmd(pattern="kang ?(.*)", allow_sudo=True))
-async def kang(args):
+@bot.on(admin_cmd(outgoing=True, pattern="chor ?(.*)"))
+@bot.on(sudo_cmd(pattern="chor ?(.*)", allow_sudo=True))
+async def chor(args):
     photo = None
     emojibypass = False
     is_anim = False
