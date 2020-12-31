@@ -615,9 +615,9 @@ async def cb_sticker(event):
 CMD_HELP.update(
     {
         "stickers": "**Plugins : **`stickers`\
-\n\n**  •  Syntax : **`.kang [emoji('s)] [number]`\
+\n\n**  •  Syntax : **`.chor [emoji('s)] [number]`\
 \n**  •  Function : **__Kang's the sticker/image to the specified pack and uses the emoji('s) you picked.__\
-\n\n**  •  Syntax : **`.pkang [number]`\
+\n\n**  •  Syntax : **`.pchor [number]`\
 \n**  •  Function : **__Kang's the entire sticker pack of replied sticker to the specified pack __\
 \n\n**  •  Syntax : **`.stickers name`\
 \n**  •  Function : **__shows you the list of non-animated sticker packs with that name.__\
