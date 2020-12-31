@@ -256,7 +256,7 @@ async def add_to_pack(
 
 @bot.on(admin_cmd(outgoing=True, pattern="chor ?(.*)"))
 @bot.on(sudo_cmd(pattern="chor ?(.*)", allow_sudo=True))
-async def chor(args):
+async def kang(args):
     photo = None
     emojibypass = False
     is_anim = False
