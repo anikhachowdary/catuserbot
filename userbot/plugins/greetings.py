@@ -19,7 +19,7 @@ async def noon(noon):
     
  @bot.on(admin_cmd(pattern=f"ge$", outgoing=True))
 @bot.on(sudo_cmd(pattern="ge$", allow_sudo=True))
-async def noon(evng):
+async def evng(evng):
     txt = random.choice(catmemes.GDEVNG)
     await edit_or_reply(evng, txt)
 
