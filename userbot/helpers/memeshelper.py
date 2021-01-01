@@ -62,7 +62,7 @@ GDEVNG = [
     "Impossible becomes possible only with true friends, True friendship never makes you fail, Have a great evening!",
     "Till eternity you will be mine and i will be yours., You and I are destined to live and die together. I love You",
     "Happiness cannot be far behind a grateful heart and a peaceful mind Good Evening",
-    "Coffee and Conversation with good friends. What a good evening."
+    "Coffee and Conversation with good friends. What a good evening." ,
 ]
 
 GDNIGHT = [
